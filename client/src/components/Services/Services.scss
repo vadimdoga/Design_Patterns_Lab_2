@@ -1,0 +1,16 @@
+.services{
+  margin-left: 15%;
+  
+  &__header{
+    & p{
+      font-size: 18px;
+    }
+    color: rgba(0,0,0, 0.7);
+    padding-bottom: 0;
+  }
+  &__elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,35 @@
+.navbar {
+  height: 100%;
+  width: 15%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar li {
+  list-style: none;
+  padding: 15px;
+  text-align: start;
+}
+
+.navbar a {
+  color: rgba(225, 225, 225, 0.3);
+  text-decoration: none;
+}
+
+.navbar a:hover, .navbar a:focus {
+  color: white;
+  border-bottom: 1px solid 	#C0C0C0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar__logo {
+  max-width: 70%;
+  max-height: 70%;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=SideNavBar.css.map */

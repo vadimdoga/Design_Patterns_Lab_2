@@ -1,0 +1,21 @@
+.flavorElement{
+  color: white;
+  width: 30%;
+  font-size: 14px;
+  margin:0 2% ;
+  & h4{
+    margin: 0;
+    margin-left: 0;
+  }
+  &__sub{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+
+    &-dotted-line {
+      border-bottom: 1px dotted white;
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.flavorMenu{
+  padding-top: 20px;
+  margin-left: 15%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8 ) 100%);
+  & h2{
+    display: block;
+    margin: 0 auto;
+    color: #dd5800;
+  }
+  &__element{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}
