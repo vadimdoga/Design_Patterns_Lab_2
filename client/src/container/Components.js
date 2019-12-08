@@ -7,9 +7,11 @@ import FlavorMenu from '../components/FlavorMenu/FlavorMenu'
 import DrinksMenu from '../components/DrinksMenu/DrinksMenu'
 import AboutUs from '../components/AboutUs/AboutUs'
 import Footer from '../components/Footer/Footer'
+import Cart from '../components/Cart/Cart'
 const Components = () => {
   return (
     <div>
+      <Cart />
       <Element name="main">
         <Main />
       </Element>

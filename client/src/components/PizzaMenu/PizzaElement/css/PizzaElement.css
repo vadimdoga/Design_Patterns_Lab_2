@@ -28,4 +28,15 @@
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+
+.pizzaElement__buttons {
+  margin-bottom: 10px;
+}
+
+.pizzaElement__buttons__1 {
+  width: 10%;
+  background-color: green;
+  border: 2px solid greenyellow;
+  border-radius: 30px;
+}
 /*# sourceMappingURL=PizzaElement.css.map */

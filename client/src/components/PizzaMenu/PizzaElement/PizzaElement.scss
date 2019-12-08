@@ -18,4 +18,14 @@
       flex-grow: 1;
     }
   }
+  &__buttons{
+    margin-bottom: 10px;
+
+    &__1{
+      width: 10%;
+      background-color: green;
+      border: 2px solid greenyellow;
+      border-radius: 30px;
+    }
+  }
 }
