@@ -24,3 +24,16 @@ h2{
 .App-link {
   color: #09d3ac;
 }
+
+.game-start{
+  margin-left: 15%;
+}
+
+#start-game-button{
+  font-weight: 700;
+  width: 100px;
+  background-color: #282c34;
+  color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+}

@@ -1,0 +1,35 @@
+.game{
+  &__first-game{
+    margin: 35px;
+    width: 80px;
+    font-weight: 700;
+    width: 100px;
+    background-color: #282c34;
+    color: #cf462d;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  &__second-game{
+    margin: 35px;
+    width: 80px;
+    font-weight: 700;
+    width: 100px;
+    background-color: #282c34;
+    color: #cf462d;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  &__third-game{
+    margin: 35px;
+    width: 80px;
+    font-weight: 700;
+    width: 100px;
+    background-color: #282c34;
+    color: #cf462d;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  &__timer{
+    margin-top: 10px;
+  }
+}
