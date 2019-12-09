@@ -169,6 +169,7 @@ export class Game extends Component {
     }, 20000)
     
   }
+  
   render() {
     return (
       <div className="game">
@@ -195,6 +196,7 @@ export class Game extends Component {
         <button className="game__first-game" id="first-game" onClick={this.handleClick1}>Hit me!</button>
         <button className="game__second-game" id="second-game" onClick={this.handleClick2}>Hit me!</button>
         <button className="game__third-game" id="third-game" onClick={this.handleClick3}>Hit me!</button>
+        {this.state.hits === 200 ? <p>You won!!!</p>:<p>Try another time!</p>}
       </div>
     )
   }

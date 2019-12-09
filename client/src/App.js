@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <SideNavBar />
       <div className="game-start">
-        <p>Here you can benefit a 15% off your price. The ideea is to press buttons that appear as fast as you can. You need to hit 200 times. Good Luck</p>
+        <p>Here you can benefit our new mini-game. The ideea is to press buttons that appears, as fast as you can. You need to hit 200 times. Good Luck</p>
         <button id="start-game-button" onClick={handleClick}>START</button>
         {game ? <GameComponent />: null}
       </div>

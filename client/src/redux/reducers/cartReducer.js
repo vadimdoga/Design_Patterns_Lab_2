@@ -8,7 +8,7 @@ const cartReducer = (state = initState, action) => {
     let addedItem = action.element
     return {
       ...state,
-      total: state.total + addedItem.price,
+      total: state.total + parseFloat(addedItem.price),
       addedItems: [...state.addedItems, addedItem]
     }
   }
@@ -21,7 +21,7 @@ const cartReducer = (state = initState, action) => {
 
     return {
       ...state,
-      total: state.total - itemToRemove.price,
+      total: state.total - parseFloat(itemToRemove.price),
       addedItems: [...copyArray]
     }
   }

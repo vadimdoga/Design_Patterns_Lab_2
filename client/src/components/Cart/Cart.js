@@ -26,8 +26,9 @@ const Cart = (props) => {
         <div className="Modal__box">
           <img alt="close icon" src={close} onClick={handleClose} className="Modal__box_close" />
           <h2>Your Order:</h2>
+          <p>Total: {props.total} $</p>
+
           {props.items.map(item => {
-            
             return (
               <div key={item.name} className="Modal__box_orders">
                 <p>{item.name}</p>
@@ -45,7 +46,8 @@ const Cart = (props) => {
 }
 const mapStateToProps = (state)=>{
   return{
-      items: state.addedItems
+      items: state.addedItems,
+      total: state.total
   }
 }
 const mapDispatchToProps = (dispatch) => {
