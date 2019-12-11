@@ -2,6 +2,7 @@
   position: fixed;
   right: 5%;
   top: 15px;
+  cursor: pointer;
 }
 
 .cart_icon:hover {

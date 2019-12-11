@@ -11,14 +11,16 @@
     padding: 15px;
     text-align: start;
   }
-  & a{
-    color: rgba(225,225,225 , 0.3);
-    text-decoration: none;
-  }
-  & a:hover, a:focus{
-    color: white;
-    border-bottom: 1px solid 	#C0C0C0;
-    transition: 0.5s;
+  & ul{
+    & a{
+      color: rgba(225,225,225 , 0.3);
+      text-decoration: none;
+    }
+    & a:hover, a:focus{
+      color: white;
+      border-bottom: 1px solid 	#C0C0C0;
+      transition: 0.5s;
+    }
   }
 
   &__logo {

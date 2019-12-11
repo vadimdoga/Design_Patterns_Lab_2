@@ -15,12 +15,12 @@
   text-align: start;
 }
 
-.navbar a {
+.navbar ul a {
   color: rgba(225, 225, 225, 0.3);
   text-decoration: none;
 }
 
-.navbar a:hover, .navbar a:focus {
+.navbar ul a:hover, .navbar ul a:focus {
   color: white;
   border-bottom: 1px solid 	#C0C0C0;
   -webkit-transition: 0.5s;

@@ -7,7 +7,8 @@
 }
 
 .footer__form {
-  border: 2px solid #cf462d;
+  border: 5px solid #cf462d;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +23,48 @@
 }
 
 .footer__form__label {
+  margin: 2%;
+  text-shadow: 3px 3px black;
+}
+
+.footer__form__label input {
+  margin-left: 15px;
+  border: 2px solid black;
+  border-bottom: 2px solid #cf462d;
+  border-right: 2px solid #cf462d;
+  -webkit-box-shadow: 2px 1px #cf462d;
+          box-shadow: 2px 1px #cf462d;
+}
+
+.footer__form__label textarea {
+  margin-left: 15px;
+  border: 2px solid black;
+  border-bottom: 2px solid #cf462d;
+  border-right: 2px solid #cf462d;
+  -webkit-box-shadow: 2px 1px #cf462d;
+          box-shadow: 2px 1px #cf462d;
+}
+
+.footer__form__label p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer__form_submitButton {
+  background: #cf462d;
+  border: #cf462d;
+  border-top: 5px solid #cf462d;
+  font-weight: 700;
+}
+
+.footer__form_submitButton:focus {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.footer__social {
+  padding: 10px;
   margin: 2%;
 }
 /*# sourceMappingURL=Footer.css.map */

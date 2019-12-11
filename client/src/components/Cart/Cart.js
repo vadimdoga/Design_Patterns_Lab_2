@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import icon from './cart.png'
-import close from './close_cart.png'
+import icon from '../../assets/cart_icons/cart.png'
+import close from '../../assets/cart_icons/close_cart.png'
 import { connect } from 'react-redux'
 import './css/Cart.css'
 import { removeFromCart } from '../../redux/actions/removeAction'
