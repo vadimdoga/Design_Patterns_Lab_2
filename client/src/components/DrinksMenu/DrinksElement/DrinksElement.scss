@@ -1,7 +1,9 @@
+$breakpoint-fullhd: 1920px;
+
 .drinksElement{
   color: white;
   width: 30%;
-  font-size: 14px;
+  font-size: 0.8em;
   margin:0 2% ;
   & h4{
     margin: 0;
@@ -22,12 +24,17 @@
     margin-bottom: 10px;
 
     &__1{
-      width: 10%;
+      width: 25px;
       background-color: green;
       border: 2px solid greenyellow;
       border-radius: 30px;
       cursor: pointer;
     }
     
+  }
+}
+@media (min-width: $breakpoint-fullhd) {
+  .drinksElement{
+    font-size: 1.2em;
   }
 }

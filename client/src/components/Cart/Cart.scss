@@ -1,4 +1,7 @@
+$breakpoint-fullhd: 1920px;
+
 .cart_icon{
+  width: 6%;
   position: fixed;
   right: 5%;
   top: 15px;
@@ -43,7 +46,7 @@
     }
     &_orders{
       display: flex;
-      font-size: 12px;
+      font-size: 1em;
       width: 20%;
       &-line {
         border-bottom: 1px dotted white;
@@ -58,5 +61,10 @@
       margin: auto;
       margin-left: 5px;
     }
+  }
+}
+@media (min-width: $breakpoint-fullhd) {
+  .cart_icon{
+    width: 5%;
   }
 }

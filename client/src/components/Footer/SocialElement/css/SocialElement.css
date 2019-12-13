@@ -1,9 +1,9 @@
-.social {
-  width: 4%;
-  padding: 2%;
+.social img {
+  height: 4%;
+  padding: 0 20px;
 }
 
-.social:hover {
+.social img:hover {
   opacity: 0.7;
 }
 /*# sourceMappingURL=SocialElement.css.map */

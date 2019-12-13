@@ -7,6 +7,7 @@
 }
 
 .footer__form {
+  font-size: 1em;
   border: 5px solid #cf462d;
   color: white;
   display: -webkit-box;
@@ -66,5 +67,11 @@
 .footer__social {
   padding: 10px;
   margin: 2%;
+}
+
+@media (min-width: 1920px) {
+  .footer {
+    font-size: 1.5em;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

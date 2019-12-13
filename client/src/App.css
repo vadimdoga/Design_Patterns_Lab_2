@@ -2,8 +2,13 @@
   text-align: center;
 }
 h2{
-  font-size: 2.3rem;  
+  font-size: 2.5rem;  
   font-family: 'Great Vibes',  sans-serif;
+}
+@media (min-width: 1920px) {
+  h2{
+    font-size: 3.5rem;
+  }
 }
 
 .App-logo {
@@ -30,6 +35,7 @@ h2{
 }
 
 #start-game-button{
+  font-size: 1em;
   font-weight: 700;
   width: 100px;
   background-color: #282c34;

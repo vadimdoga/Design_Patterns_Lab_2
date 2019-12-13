@@ -1,7 +1,7 @@
 .flavorElement {
   color: white;
   width: 30%;
-  font-size: 14px;
+  font-size: 0.8em;
   margin: 0 2%;
 }
 
@@ -34,10 +34,16 @@
 }
 
 .flavorElement__buttons__1 {
-  width: 10%;
+  width: 25px;
   background-color: green;
   border: 2px solid greenyellow;
   border-radius: 30px;
   cursor: pointer;
+}
+
+@media (min-width: 1920px) {
+  .flavorElement {
+    font-size: 1.2em;
+  }
 }
 /*# sourceMappingURL=FlavorElement.css.map */
