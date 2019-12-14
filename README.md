@@ -4,30 +4,22 @@
 
 A responsive web site which was made as a laboratory work on Design Patterns course.
 
-![Annotation 2019-11-05 153017](https://user-images.githubusercontent.com/43139007/68212372-14502800-ffe2-11e9-8772-5d42aa161f48.png)
+![Annotation 2019-12-14 094348](https://user-images.githubusercontent.com/43139007/70845375-8a07a900-1e56-11ea-856e-781d77b7dd06.png)
 
 
-### Features
-1. Multiple connections in a chat room.
-2. Displaying number of connected persons.
-3. When somebody types other people see who is typing now.
-4. All messages are saved to DB.
-5. RSA security
+### Design Patterns
+1. Singletone
+2. Decorator
+3. Mediator
 
-### Problems
-1. Because of RSA encryption/decryption you can't write on more than approx 128 bytes at a time(It was done for the sake of laboratory).
-
-### Configuration
-Before npm start you need to configure the ip in 'server.js','Chat.js' and 'Show.js' with current ip for your network
 
 ### Built With
 
 * [React](https://reactjs.org/)
-* [NodeJS](https://nodejs.org/en/)
-* [Express](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/)
+* [Redux](https://redux.js.org/)
 
 
 ### Authors
 
-* **Doga Vadim** - *All work* - [vadimdoga](https://github.com/vadimdoga)
+* **Doga Vadim** - *90%* - [vadimdoga](https://github.com/vadimdoga)
+* **Baracu Patricia** - *10%* - web design
